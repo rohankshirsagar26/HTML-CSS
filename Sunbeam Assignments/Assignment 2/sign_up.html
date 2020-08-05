@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://img.icons8.com/color/48/000000/earbud-headphones.png">
+    <title>Contact Us</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            overflow-y: hidden;
+            overflow-x: hidden;
+            color: white;
+            background-color: black;
+        }
+        .container{
+            height: 100vh;
+            width: 100vw;
+        }
+        .top{
+            border: 1px solid black;
+            height: 10%;
+            width: 100%;
+            display: flex;
+        }
+        .box{
+            border: 1px solid white;
+            height: 100%;
+            width: 25%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .bottom{
+            border-top: 1px solid white;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        fieldset{
+            height: 500px;
+            width: 500px;
+            padding: 10px 5px;
+        }
+        legend{
+            text-align: center;
+            font-size: 3rem;
+            font-weight: 900;
+        }
+        .bottom div{
+            margin-top: 30px;
+            margin-bottom: 50px;
+            margin-left: 50px;
+            font-size: 2rem;
+        }
+        button{
+            margin-left: 180px;
+            padding: 5px 20px;
+            letter-spacing: 0.2rem;
+            font-size: 1.2rem;
+            background-color: white;
+            color: black;
+        }
+        button:hover{
+            color: white;
+            background-color: black;
+        }
+        a{
+            text-decoration: none;
+            font-size: 2rem;
+            font-weight: 500;
+            color: white;
+        }
+        a:hover{
+            font-size: 2.5rem;
+            font-weight: 530;
+            font
+        }
+        input[type="text"],input[type="email"],input[type="password"]{
+            height: 30px;
+            margin-right: 20px;
+            background-color: rgb(200,200,200);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="top">
+            <div class="box"><a href="my_music.html">Home</a></div>
+            <div class="box"><a href="music.html">Music</a></div>
+            <div class="box"><a href="about_us.html">About Us</a></div>
+            <div class="box"><a href="sign_up.html">Sign Up</a></div>
+        </div>
+        <div class="bottom">
+            <form action="">
+                <fieldset>
+                    <legend>Sign Up Form</legend>
+                    <div>
+                        <label for="first_name">First Name</label> <input type="text" name="first_name" id="first_name">
+                    </div>
+                    <div>
+                        <label for="last_name">Last Name</label> <input type="text" name="last_name" id="last_name">
+                    </div>
+                    <div>
+                        <label for="email">Email</label> <input type="email" name="email" id="email">
+                    </div>
+                    <div>
+                        <label for="password">Password</label> <input type="password" name="password" id="Password">
+                    </div>
+                    <button type="submit">Submit</button>
+                </fieldset>
+            </form>
+        </div>
+</body>
+</html>

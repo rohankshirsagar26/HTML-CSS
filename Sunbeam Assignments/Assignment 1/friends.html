@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friends List</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+        *{
+            margin: 0px;
+            padding: 0px;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            font-family: 'Varela Round', sans-serif;
+            color: white;
+            background-color: rgb(50, 50, 50);
+        }
+        .container{
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            flex-direction: row;
+        }
+        .top{
+            position: absolute;
+            border-bottom: 1.5px solid white;
+            width: 100%;
+            height: 20%;
+        }
+        .top h1{
+            margin-top: 60px;
+            margin-left: 20px;
+            font-size: 3rem;
+        }
+        .left{
+            /* border: 2px solid black; */
+            width: 50%;
+            height: 80%;
+            margin-top: 179px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        .right{
+            /* border: 2px solid black; */
+            width: 50%;
+            height: 80%;
+            margin-top: 179px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        .box{
+            border: 1px solid white;
+            height: 150px;
+            width: 500px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        .box h2{
+            margin-left: 150px;
+        }
+        .box img{
+            height: 150px;
+            width: 150px;
+            border-right: 1px solid white;
+        }
+        div a{
+            text-decoration: none;
+        }
+        div a:hover{
+            font-size: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="top">
+        <h1>My Friend List</h1>
+    </div>  
+    <div class="container">
+        <div class="left">
+            <div class="box" id="box1">
+                <img src="deepika.jpg" alt="deepika">
+                <h2><a href="info.html#deepika">Deepika</a></h2>
+            </div>
+            <div class="box" id="box2">
+                <img src="kunal.jpg" alt="kunal">
+                <h2><a href="info.html#kunal">Kunal</a></h2>
+            </div>
+            <div class="box" id="box3">
+                <img src="varun.jpg" alt="varun">
+                <h2><a href="info.html#varun">Varun</a></h2>
+            </div>
+        </div>
+        <div class="right">
+            <div class="box" id="box1">
+                <img src="rohini.jpg" alt="rohini">
+                <h2><a href="info.html#rohini">Rohini</a></h2>
+            </div>
+            <div class="box" id="box2">
+                <img src="rohit.jpeg" alt="rohit">
+                <h2><a href="info.html#rohit">Rohit</a></h2>
+            </div>
+            <div class="box" id="box3">
+                <img src="virat.jpg" alt="virat">
+                <h2><a href="info.html#virat">Virat</a></h2>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

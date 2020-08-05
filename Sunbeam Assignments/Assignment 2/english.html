@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://img.icons8.com/color/48/000000/earbud-headphones.png">
+    <title>My Music</title>
+    <style>
+                *{
+            padding: 0px;
+            margin: 0px;
+            overflow-y: hidden;
+            overflow-x: hidden;
+            color: white;
+            background-color: black;
+        }
+        .container{
+            height: 100vh;
+            width: 100vw;
+        }
+        .top{
+            border: 1px solid black;
+            height: 10%;
+            width: 100%;
+            display: flex;
+        }
+        .box{
+            border: 1px solid white;
+            height: 100%;
+            width: 25%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .bottom{
+            border-top: 1px solid white;
+            height: 90%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .mbox{
+            border: 1px solid black;
+            height: 50%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        a{
+            text-decoration: none;
+            font-size: 2rem;
+            font-weight: 500;
+            color: white;
+        }
+        a:hover{
+            font-weight: 530;
+            font
+        }
+        .mbox h1{
+            font-size: 5rem;
+        }
+        .list{
+            width: 50%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        table{
+            width: 70%;
+        }
+        table{
+            /* border: 1px solid black; */
+            margin-bottom: 20px;
+        }
+        th{
+            text-align: center;
+            font-size: 1.5rem;
+            padding: 10px 40px;
+            border: 1px solid white;
+        }
+        tr{
+            text-align: center;
+            font-size: 1.2rem;
+            padding: 0px;
+        }
+        td{
+            padding: 0px;
+            margin: 0px;
+        }
+        .list a{
+            font-size: 3rem;
+        }
+        h3{
+            font-size: 3rem;
+        }
+        img{
+            height: 125px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="top">
+            <div class="box"><a href="my_music.html">Home</a></div>
+            <div class="box"><a href="music.html">Music</a></div>
+            <div class="box"><a href="about_us.html">About Us</a></div>
+            <div class="box"><a href="sign_up.html">Sign Up</a></div>
+        </div>
+        <div class="bottom" id="Music">
+            <div class="mbox">
+                <h1>Categories</h1>
+                <ul class="list">
+                    <li><a href="categories.html">Marathi Music</a></li>
+                    <li><a href="english.html">English Music</a></li>
+                </ul>
+            </div>
+            <div class="mbox" id="English">
+                <h3>English Music</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Sr No</th>
+                            <th>Song Name</th>
+                            <th>Album Name</th>
+                            <th>Album Image</th>
+                            <th>Play Audio</th>
+                            <th>Play Video</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Toss The Feathers</td>
+                            <td>Jupitor Calling</td>
+                            <td><img src="toss.jpg" alt="album image"></td>
+                            <td><audio controls src=""></audio></td>
+                            <td><iframe width="300px" height="100px" src="https://www.youtube.com/embed/a41IPN7sKNk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Breathless</td>
+                            <td>Borrowed Heaven</td>
+                            <td><img src="breathless.jpg" alt="album image"></td>
+                            <td><audio controls src=""></audio></td>
+                            <td><iframe width="300px" height="100px" src="https://www.youtube.com/embed/2FrSsF7SJm4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+</body>
+</html>

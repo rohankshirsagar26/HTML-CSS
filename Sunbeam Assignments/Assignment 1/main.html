@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://img.icons8.com/color/48/000000/blogger.png">
+    <title>My Blog</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+        * {
+            margin: 0px;
+            padding: 0px;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            font-family: 'Varela Round', sans-serif;
+            color: white;
+            background-color: rgb(50, 50, 50);
+        }
+        img{
+            border: 1px solid white;
+            border-radius: 20px;
+            margin-top: 20px;
+            height: 300px;
+            width: 500px;
+        }
+
+        .conatiner {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .left {
+            position: absolute;
+            border-right: 2px solid white;
+            width: 30%;
+            height: 100%;
+        }
+
+        .right {
+            margin-left: 30%;
+            position: absolute;
+            /* border-top: 2px solid black;
+            border-right: 2px solid black;
+            border-bottom: 2px solid black; */
+            border-left: 2px solid white;
+            width: 70%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .left ul {
+            display: flex;
+            height: 100%;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+
+        .left ul li {
+            font-size: 2rem;
+        }
+
+        .left ul li:hover {
+            font-size: 2.2rem;
+        }
+
+        .left ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .bg {
+            /* border-top: 2px solid black; */
+            width: 100%;
+            height: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .bg h1{
+            margin-top: 30px;
+            font-size: 5rem;
+        }
+
+        .am {
+            /* border-left: 2px solid black;
+            border-right: 2px solid black; */
+            width: 100%;
+            height: 30%;
+            display: flex;
+            flex-direction: column;
+            /* align-items: center; */
+            /* justify-content: space-evenly; */
+        }
+        .am h2{
+            font-size: 2rem;
+            margin-top: 25px;
+            margin-left: 300px;
+        }
+        .am p{
+             padding: 30px 80px;
+        }
+
+        .mfq {
+            /* border-bottom: 2px solid black; */
+            width: 100%;
+            height: 20%;
+            display: flex;
+            flex-direction: column;
+            /* align-items: center; */
+            justify-content: space-evenly;
+        }
+        .mfq h2{
+            font-size: 2rem;
+            margin-left: 300px;
+        }
+        .p{
+            height: 70%;
+            width: 60%;
+            /* border: 1px solid black ; */
+            margin: 10px auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <ul>
+                <li><a href="register.html">Register Here</a></li>
+                <li><a href="friends.html">Friends</a></li>
+                <li><a href="gallery.html">Gallary</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <div class="bg">
+                <h1>My Blog</h1>
+                <img src="IMG_20151011_152004330.jpg" alt="my photo">
+            </div>
+
+            <div class="am">
+                <h2>About Me</h2>
+                <div class="p">
+                    <p>I'm Rohan, an accidental mechanical engineer, looking forward to become a full stack developer by pursuing Post Graduate Diploma in Advancing Computing from Sunbeam Institute of Information Technology. I have worked as a Graduate Engineer Trainee in Tricon Technologies after my graduation. Currently I am working as a Freelance Content Writer at Testbook.com</p>
+                </div>
+            </div>
+
+            <div class="mfq">
+                <h2>My Favourite Quote</h2>
+                <div class="p">
+                    <p>I am growing through what I am going through !</p>   
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

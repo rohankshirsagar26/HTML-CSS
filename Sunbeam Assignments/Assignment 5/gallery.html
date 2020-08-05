@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+        *{
+            padding: 0px;
+            margin: 0px;
+            overflow-y: hidden;
+            overflow-x: hidden;
+        }
+        .bg{
+            position: absolute;
+            height: 100vh;
+            width: 100vw;
+            background: black;
+            background-position: cover;
+            background-size: cover;
+            z-index: -1;
+            filter: opacity(0.9);
+            filter: blur(2px);
+        }
+        .container{
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+        }
+        .top{
+            height: 33.33%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .mid{
+            height: 33.33%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;  
+        }
+        .bottom{
+            height: 33.33%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .heading{
+            height: 20%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+        }
+        .heading h2{
+            margin-left: 20px;
+        }
+        .row{
+            height: 80%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        .box{
+            /* border: 2px solid black; */
+            height: 90%;
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .one{
+            height: 70%;
+            width: 100%;
+        }
+        .two{
+            height: 20%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .three{
+            height: 10%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        img{
+            height: 100%;
+            width: 100%;
+            border-radius: 20px;
+        }
+        h2{
+            font-size: 2rem;
+            font-size: 2.5rem;
+            font-family: 'Ubuntu', sans-serif;
+            color: white;
+        }
+        h3{
+            font-size: 1.5rem;
+            font-family: 'Ubuntu', sans-serif;
+            font-weight: 400;
+            color: white;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        p{
+            font-family: monospace;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="bg"></div>
+        <div class="top">
+            <div class="heading">
+                <h2>Top Marathi</h2>
+            </div>
+            <div class="row">
+                <div class="box">
+                    <div class="one"><a href="song.html#m1"><img src="images/M1.jpg" alt=""></a></div>
+                    <div class="two"><a href="song.html#m1"><h3>Kokan Unplugged</h3></a></div>
+                    <div class="three"><a href="song.html#m1"><p>Shubhangi Kedar</p></a></div>
+                </div>
+                <div class="box">
+                    <div class="one"><a href="song.html#m2"><img src="images/M2.jpg" alt=""></a></div>
+                    <div class="two"><a href="song.html#m2"><h3>Maharashtra Geet</h3></a></div>
+                    <div class="three"><a href="song.html#m2"><p>Shubhangi Kedar</p></a></div>
+                </div>
+                <div class="box">
+                    <div class="one"><a href="song.html#m3"><img src="images/M3.jpg" alt=""></a></div>
+                    <div class="two"><a href="song.html#m3"><h3>Unch Maza Zoka</h3></a></div>
+                    <div class="three"><a href="song.html#m3"><p>Shubhangi Kedar</p></a></div>
+                </div>
+                <div class="box">
+                    <div class="one"><a href="song.html#m4"><img src="images/M4.jpg" alt=""></a></div>
+                    <div class="two"><a href="song.html#m4"><h3>Game of Thrones Cover</h3></a></div>
+                    <div class="three"><a href="song.html#m4"><p>Shubhangi Kedar</p></a></div>
+                </div>
+                <div class="box">
+                    <div class="one"><a href="song.html#m5"><img src="images/M5.jpg" alt=""></a></div>
+                    <div class="two"><a href="song.html#m5"><h3>Shivrajyabhishek Geet</h3></a></div>
+                    <div class="three"><a href="song.html#m5"><p>Shubhangi Kedar</p></a></div>
+                </div>
+                <div class="box">
+                    <div class="one"><a href="song.html#m6"><img src="images/M6.jpg" alt=""></a></div>
+                    <div class="two"><a href="song.html#m6"><h3>Jijau Ovi</h3></a></div>
+                    <div class="three"><a href="song.html#m6"><p>Shubhangi Kedar</p></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="mid">
+            <div class="heading">
+                <h2>Top Hindi</h2>
+            </div>
+            <div class="row">
+                <div class="box">
+                    <div class="one"><a href="song.html#h1"><img src="images/H1.jpg" alt=""></a></div>
+                    <div class="two"><a href="song.html#h1"><h3>Kohinoor</h3></a></div>
+                    <div class="three"><a href="song.html#h1"><p>Divine</p></a></div>
+                </div>
+                <div class="box">
+                    <div class="one"><a href="song.html#h2"><img src="images/H2.jpg" alt=""></a></div>
+                    <div class="two"><a href="song.html#h2"><h3>Mantoniyat</h3></a></div>
+                    <div class="three"><a href="song.html#h2"><p>Raftaar</p></a></div>
+                </div>
+                <div class="box">
+                    <div class="one"><a href="song.html#h3"><img src="images/H3.jpg" alt=""></a></div>
+                    <div class="two"><a href="song.html#h3"><h3>Kaam 25</h3></a></div>
+                    <div class="three"><a href="song.html#h3"><p>Divine</p></a></div>
+                </div>
+                <div class="box">
+                    <div class="one"><a href="song.html#h4"><img src="images/H4.jpg" alt=""></a></div>
+                    <div class="two"><a href="song.html#h4"><h3>Main Wahi Hoon</h3></a></div>
+                    <div class="three"><a href="song.html#h4"><p>Raftaar</p></a></div>
+                </div>
+                <div class="box">
+                    <div class="one"><a href="song.html#h5"><img src="images/H5.jpg" alt=""></a></div>
+                    <div class="two"><a href="song.html#h5"><h3>Teesri Manzil</h3></a></div>
+                    <div class="three"><a href="song.html#h5"><p>Divine</p></a></div>
+                </div>
+                <div class="box">
+                    <div class="one"><a href="song.html#h6"><img src="images/H6.jpg" alt=""></a></div>
+                    <div class="two"><a href="song.html#h6"><h3>Naachne Ka Shauq</h3></a></div>
+                    <div class="three"><a href="song.html#h6"><p>Raftaar</p></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="heading">
+                <h2>Top English</h2>
+            </div>
+            <div class="row">
+                <div class="box">
+                    <div class="one"><a href="song.html#e1"><img src="images/E1.jpg" alt=""></a></div>
+                    <div class="two"><a href="song.html#e1"><h3>Waka Waka</h3></a></div>
+                    <div class="three"><a href="song.html#e1"><p>Shakira</p></a></div>
+                </div>
+                <div class="box">
+                    <div class="one"><a href="song.html#e2"><img src="images/E2.jpg" alt=""></a></div>
+                    <div class="two"><a href="song.html#e2"><h3>Despacito</h3></a></div>
+                    <div class="three"><a href="song.html#e2"><p>Luis Fonci</p></a></div>
+                </div>
+                <div class="box">
+                    <div class="one"><a href="song.html#e3"><img src="images/E3.jpg" alt=""></a></div>
+                    <div class="two"><a href="song.html#e3"><h3>Girl Like You</h3></a></div>
+                    <div class="three"><a href="song.html#e3"><p>Maroon 5</p></a></div>
+                </div>
+                <div class="box">
+                    <div class="one"><a href="song.html#e4"><img src="images/E4.jpg" alt=""></a></div>
+                    <div class="two"><a href="song.html#e4"><h3>Shape of You</h3></a></div>
+                    <div class="three"><a href="song.html#e4"><p>Ed Shareen</p></a></div>
+                </div>
+                <div class="box">
+                    <div class="one"><a href="song.html#e5"><img src="images/E5.jpg" alt=""></a></div>
+                    <div class="two"><a href="song.html#e5"><h3>Toss The Feathers</h3></a></div>
+                    <div class="three"><a href="song.html#e5"><p>The Corrs</p></a></div>
+                </div>
+                <div class="box">
+                    <div class="one"><a href="song.html#e6"><img src="images/E6.jpg" alt=""></a></div>
+                    <div class="two"><a href="song.html#e6"><h3>Thousand Years</h3></a></div>
+                    <div class="three"><a href="song.html#e6"><p>Christiyana Perry</p></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

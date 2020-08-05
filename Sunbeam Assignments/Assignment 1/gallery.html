@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery View</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+        *{
+            padding: 0px;
+            margin: 0px;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            font-family: 'Varela Round', sans-serif;
+            color: white;
+            background-color: rgb(50, 50, 50);
+        }
+        .container{
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+        }
+        .column{
+            border: 1px solid white;
+            height: 100%;
+            width: 33.33%;
+            display: flex;
+            flex-direction: column;
+        }
+        .box{
+            border: 1px solid white;
+            height: 33.33%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        img{
+            border: 1px solid white;
+            border-radius: 5px;
+            height: 80%;
+            width: 80%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="column">
+            <div class="box">
+                <img src="deepika.jpg" alt="photo">
+            </div>
+            <div class="box">
+                <img src="virat.jpg" alt="photo">
+            </div>
+            <div class="box">
+                <img src="kunal.jpg" alt="photo">
+            </div>
+        </div>
+        
+        <div class="column">
+            <div class="box">
+                <img src="rohini.jpg" alt="photo">
+            </div>
+            <div class="box">
+                <img src="rohit.jpeg" alt="photo">
+            </div>
+            <div class="box">
+                <img src="varun.jpg" alt="photo">
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="box">
+                <img src="WhatsApp Image 2020-07-28 at 5.32.48 PM (1).jpeg" alt="photo">
+            </div>
+            <div class="box">
+                <img src="WhatsApp Image 2020-07-28 at 5.32.48 PM (2).jpeg" alt="photo">
+            </div>
+            <div class="box">
+                <img src="WhatsApp Image 2020-07-28 at 5.32.48 PM.jpeg" alt="photo">
+            </div>
+        </div>
+        
+        
+    </div>
+</body>
+</html>
