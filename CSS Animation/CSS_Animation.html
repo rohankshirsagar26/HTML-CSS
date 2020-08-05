@@ -31,8 +31,19 @@
             bottom: 0;
             left: 0;
             animation-name: bird;
-            animation-duration: 30s;
+            animation-duration: 20s;
             animation-iteration-count: infinite;
+        }
+        #bird1{
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            animation-name: bird;
+            animation-duration: 20s;
+            animation-iteration-count: infinite;
+            animation-delay: 5s;
         }
         #sun{
             height: 200px;
@@ -232,12 +243,17 @@
             from{transform: translate(0.0)}
             to{transform: translate(1800px,-350px);}
         }
+        @keyframes bird1{
+            from{transform: translate(0px,0px)}
+            to{transform: translate(1800px,-350px);}
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="sky">
             <img id="bird" src="bird.png" alt="">
+            <img id="bird1" src="bird1.png" alt="">
             <img id="sun" src="sun.png" alt="">
             <img id="cloud1" src="cloud.png" alt="">
             <img id="cloud2" src="cloud.png" alt="">
